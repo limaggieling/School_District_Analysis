@@ -78,9 +78,11 @@ Minor changes occurred between the $585-629bin and $630-644 before and after the
 ![spending_after](Resources/spending_after.png)
 
 **Scores by school size**
+
 No significant change occurred regarding the scores to school size.
 
 **Scores by school type**
+
 With the exclusion of THS 9th grades scores, the charter school category was mildly impacted.
 ![school_type_after](Resources/school_type_after.png)
 
