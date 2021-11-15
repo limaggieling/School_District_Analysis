@@ -39,7 +39,8 @@ Using Jupyter Notebooks is fundamental to data analytics. It is a very popular p
 
 **District Summary Before**
 ![district_summary_before](Resources/district_summary_before.png)
-**Distric Summary After**
+
+**District Summary After**
 ![district_summary_after](Resources/district_summary_after.png)
 
 The performance values decreased slightly as seen from the before and after images above
@@ -54,26 +55,30 @@ The performance values decreased slightly as seen from the before and after imag
 ![school_summary_headers](Resources/school_summary_headers.png)
 ![school_summary_after](Resources/school_summary_after.png)
 
-There is a significant increase in math reading and overall percentage performance after excluding the 9th grade scores for Thomas High School.
+There is a significant decrease in math reading and overall percentage performance after excluding the 9th grade scores for Thomas High School.
 
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-Thomas High School's performance still remained to be within the top 5 schools. 
 
-**Top 5 Before THS 9th grade scores removed**
-![top_schools_before](Resources/top_schools_before.png)
-
-**Top 5 After THS 9th grade scores removed**
-![top_schools_after](Resources/top_schools_after.png)
+Thomas High School no longer holds it's second place ranking among the top 5 schools since we ranked schools based on their percentage of overall passing and it dropped from 90% to 65% for THS.
 
 - How does replacing the ninth-grade scores affect the following:
 
-Math and reading scores by grade
+**Math and reading scores by grade**
+There is no calculated value for Thomas High School's 9th grade group since we replaced all values with NaN.
 
-Scores by school spending
+**Scores by school spending**
+Minor changes occurred between the $585-629bin and $630-644 before and after the THS 9th grade exclusion.  
+**Scores by Spending Before**
+![spending_before](Resources/spending_before.png)
+**Scores by Spending After**
+![spending_after](Resources/spending_after.png)
 
-Scores by school size
+**Scores by school size**
+No significant change occurred regarding the scores to school size.
 
-Scores by school type
-
+**Scores by school type**
+With the exclusion of THS 9th grades scores, the charter school category was mildly impacted.
 
 # Summary
+
+Overall, with the removal of THS 9th grade scores, their individal rank among all the schools was greatly impacted. Minor differences were seen at the charter vs district scale and when comparing per student budget to their grades. There was no significant difference when comparing by school size.
