@@ -4,6 +4,7 @@ Anaconda3 Python 3.7 Jupyter Notebook
 # Overview
 
 **Purpose**
+
 The purpose of our project was to help Maria with analyzing school metrics to better interpret the progress of students between the 9th and 12th grades in different schools and across districts. We wanted to find some basic information such as: 
 1) Total number of students
 2) Total number of schools
@@ -34,7 +35,7 @@ Using Jupyter Notebooks is fundamental to data analytics. It is a very popular p
 # Results
 
 **Analysis**
-How is the district summary affected?
+- How is the district summary affected?
 
 **District Summary Before**
 ![district_summary_before](Resources/district_summary_before.png)
@@ -43,22 +44,35 @@ How is the district summary affected?
 
 The performance values decreased slightly as seen from the before and after images above
 
-How is the school summary affected?
+- How is the school summary affected?
 
 **School Summary Before** 
+![school_summary_headers](Resources/school_summary_headers.png)
 ![school_summary_before](Resources/school_summary_before.png)
 
+**School Summary After**
+![school_summary_headers](Resources/school_summary_headers.png)
 ![school_summary_after](Resources/school_summary_after.png)
 
-As expected no affect took place in regards to other schools expect for the performance of Thomas High School. There is a small decrease in performance after the exclusion of the 9th graders.
+There is a significant increase in math reading and overall percentage performance after excluding the 9th grade scores for Thomas High School.
 
-How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-Thomas High School's performance was 
+- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+Thomas High School's performance still remained to be within the top 5 schools. 
 
-How does replacing the ninth-grade scores affect the following:
+**Top 5 Before THS 9th grade scores removed**
+![top_schools_before](Resources/top_schools_before.png)
+
+**Top 5 After THS 9th grade scores removed**
+![top_schools_after](Resources/top_schools_after.png)
+
+- How does replacing the ninth-grade scores affect the following:
+
 Math and reading scores by grade
+
 Scores by school spending
+
 Scores by school size
+
 Scores by school type
 
 
