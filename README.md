@@ -64,12 +64,16 @@ Thomas High School no longer holds it's second place ranking among the top 5 sch
 - How does replacing the ninth-grade scores affect the following:
 
 **Math and reading scores by grade**
+
 There is no calculated value for Thomas High School's 9th grade group since we replaced all values with NaN.
 
 **Scores by school spending**
-Minor changes occurred between the $585-629bin and $630-644 before and after the THS 9th grade exclusion.  
+
+Minor changes occurred between the $585-629bin and $630-644 before and after the THS 9th grade exclusion.
+
 **Scores by Spending Before**
 ![spending_before](Resources/spending_before.png)
+
 **Scores by Spending After**
 ![spending_after](Resources/spending_after.png)
 
@@ -78,6 +82,7 @@ No significant change occurred regarding the scores to school size.
 
 **Scores by school type**
 With the exclusion of THS 9th grades scores, the charter school category was mildly impacted.
+![school_type_after](Resources/school_type_after.png)
 
 # Summary
 
